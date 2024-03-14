@@ -4,11 +4,12 @@ import axios from "axios";
 const app = express();
 const port = 3000;
 
-app.use(express.static("public"));
+
 
 app.use(express.urlencoded({ extended: true }));
-
-app.set('view engine', 'ejs');
+app.set("views", "./views");
+app.set("view engine", "ejs");
+app.use(express.static("./public"));
 app.get("/", (req, res) => {
     const content = "Discover Your Culinary Adventure: Welcome to Recipe Hub!"
     const home="Latest Meals"
