@@ -8,6 +8,9 @@ Recipe Hub is a web application where users can search for recipes by it's name 
 - **Detailed Instructions**: For each recipe, users can view detailed instructions on how to prepare the dish.
 - **Responsive Design**: The application is designed to be responsive, ensuring a seamless experience across devices.
 
+## Screenshot
+![RecipeHub](https://github.com/nikhila1612/RecipeHub/assets/84263617/f1ac2770-d092-4486-bcd6-a6bc90cbddf3)
+
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript, EJS (Embedded JavaScript)
