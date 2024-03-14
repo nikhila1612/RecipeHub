@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "DM Sans", sans-serif;
+    background-image: url("../img/bg.jpg");
+    
+    
+}
+#container{
+    padding:0;
+}
+
+.logo{
+    font-weight: bold;
+    font-family: "Satisfy", cursive;
+    font-size: 30px !important;
+}
+
+.img{
+    filter: drop-shadow(15px 35px 39px rgba(0, 0, 0, 0.603));
+    border-radius: 1rem;
+    padding:1rem;
+}
+.result{
+    display: flex;
+    justify-content: start;
+}
+.instructions{
+    text-align: justify;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    
+}
+.container-para{
+    margin-bottom: 1rem;
+}
+.no-meal{
+    padding: 10rem 2rem;
+}
+
+.latest-meal{
+    list-style-type: circle;
+    font-family: "Poppins", sans-serif;
+}
+.content{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    
+     
+}
+.ingredient{
+    font-family: "Belanosima", sans-serif;
+    font-size: 17px;
+}
+
+.ingredients{
+    font-size: 800;
+    font-family: "Libre Baskerville", serif;
+}
+.foodname{
+    font-family: "Luckiest Guy", cursive;
+}
+footer{
+    font-weight: bold;
+}
+.instruction{
+    font-size: 800;
+    font-family: "Libre Baskerville", serif;
+}
+.animate__fadeInLeft{
+    --animate-duration: 1s;
+}
+
+@media screen and (max-width:800px){
+    .result{
+        display: block;
+    }
+    .content{
+        
+        font-size: 2.5rem;
+        
+         
+    }
+    .no-meal{
+        padding: 7rem 2rem;
+    }
+    .foodname{
+        font-size: 2rem;
+        
+    }
+    
+    
+}
+
