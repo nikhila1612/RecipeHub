@@ -4,7 +4,7 @@ import axios from "axios";
 const app = express();
 const port = 3000;
 
-app.set("views", "views");
+app.set("views", "./views");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
